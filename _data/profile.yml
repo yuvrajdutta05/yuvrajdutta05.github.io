@@ -49,8 +49,6 @@ short_bio: >-
 
 
 portrait_url: /assets/images/photos/image.png
-#portrait_caption: >-
-#  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 
 research_interests: My research interests lie broadly in probability theory and theoretical statistics. I am particularly interested in stochastic processes, probabilistic modeling, and the behavior of complex random systems. I am also interested in statistical inference for dynamic and latent-variable models, as well as Bayesian approaches to modeling uncertainty. 
