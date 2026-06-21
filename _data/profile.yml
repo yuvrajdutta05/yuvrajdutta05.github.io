@@ -101,6 +101,11 @@ awards:
 
 manuscripts:
 
+  - title: "Brownian Motion with Drift Conditioned to Have Restricted L<sup>2</sup>-Norm"
+    authors: "Frank Aurzada, Yuvraj Dutta, Max Wiegand"
+    status: "Manuscript in preparation"
+    link:
+
   - title: "Projection-Based Filtering and Smoothing of Diffusion Processes"
     authors: "Yannick Eich, Yuvraj Dutta, Heinz Koeppl"
     status: "Submitted to a peer-reviewed conference"
@@ -111,10 +116,7 @@ manuscripts:
     status: "Submitted to Applied Stochastic Models in Business and Industry"
     arxiv: "https://arxiv.org/pdf/2606.04546"
 
-  - title: "Brownian Motion with Drift Conditioned to Have Restricted L<sup>2</sup>-Norm"
-    authors: "Frank Aurzada, Yuvraj Dutta, Max Wiegand"
-    status: "Manuscript in preparation"
-    link:
+
 
 # experience:
 # - name: Peking University
