@@ -1,0 +1,97 @@
+ongoing:
+
+  - year: 2026 
+  
+    title: "(Master's Dissertation) Asymptotic Fluctuations in Cubic Interaction Spin Models"
+    supervisor: "Prof. Sumit Mukherjee (Columbia University)"
+    description: >
+      Derived concentration inequalities for linear functionals in cubic interaction spin models,
+      including edge-triangle ERGMs using exchangeable-pair methods and Glauber dynamics.
+      Currently investigating central limit theorems for global magnetization under broad
+      structural assumptions on the interaction tensor.
+
+  - year: 2026
+    title: "Conditional Limit Theorem for Brownian Motion with Drift under Restricted L²-Norm"
+    supervisor: "Prof. Frank Aurzada (TU Darmstadt)"
+    description: >
+      Studying Brownian motion with drift conditioned to have atypically small L² norm over 
+      long time horizons and investigating associated conditional limit theorem along with
+       the asymptotics of small deviation probabilities of corresponding quadratic functionals.
+
+
+completed:
+
+  - year: 2025
+    title: "Projection-Based Filtering and Smoothing of Diffusion Processes"
+    authors: "Yannick Eich, Yuvraj Dutta, Heinz Koeppl"
+    description: >
+      Developed a variational framework for approximate Bayesian filtering and smoothing of diffusion processes based on projection principles. The approach extends classical assumed-density methods beyond standard Gaussian approximations, allowing tractable inference under more general distributional constraints while preserving closed-form parameter dynamics for broad classes of stochastic systems.
+ 
+  - year: 2024
+    title: "Bivariate Inverse Gaussian Degradation Processes with Shared Random Effects and an Application to Fatigue Cracks"
+    authors: "Yuvraj Dutta, Sandip Barui, Debanjan Mitra, Narayanaswamy Balakrishnan"
+    description: >
+      Developed a new class of bivariate degradation models based on inverse Gaussian processes coupled through latent shared effects. By introducing a substantially more flexible dependence structure than existing formulations, the framework unifies several commonly used models as special cases and enables data-driven selection of dependence mechanisms within a broad parametric family.
+    link: "https://arxiv.org/pdf/2606.04546"
+    link_text: "[arXiv]"
+
+ #- year: 2025
+ #  title: "Asymptotics of the Partition Function in the Ashkin–Teller Model"
+ #  authors: "Yuvraj Dutta"
+ #  description: >
+ #    Studied asymptotic properties of the partition function in the Ashkin–Teller model
+ #    arising in statistical physics.
+ #  link: "PUT_GOOGLE_DRIVE_LINK_HERE"
+ #  link_text: "[Notes]"
+
+
+coursework:
+
+  - year: 2026
+    title: "Resampling-Based Inference for Log-Linear Models"
+    description: >
+      Investigated bootstrap and jackknife variance estimation for Poisson log-linear models, identifying limitations in the treatment of complex survey weights while assessing the robustness of inference under the original modeling assumptions.
+    link: "https://drive.google.com/file/d/10uvPkNMXC3gz1BH5-b06v3V1Fsi9iF2i/view?usp=sharing"
+
+  - year: 2026
+    title: "Studying Gameplay Factors via a Confounded Factorial Experiment"
+    description: >
+      Designed and executed a partially confounded blocked 2^4 factorial experiment, including factor selection, randomization, data collection, and statistical analysis. Evaluated the impact of gameplay conditions on performance through factorial-effect estimation and ANOVA.
+    link: "https://drive.google.com/file/d/1gaeQJXO6OCbkpaGI4iTqdZ_gEQEzl5fg/view?usp=sharing"
+
+  - year: 2026
+    title: "Bootstrap-Based Model Selection in Binary GLMs"
+    description: >
+      Extended the bootstrap model selection framework in Jun Shao's  "The Jackknife and Bootstrap" from linear regression to binary-response generalized linear models, yielding a bootstrap-based procedure for predictive risk estimation and model comparison.
+    link: "https://drive.google.com/file/d/1yJYEMWVcTAMXR5XjLBwO5EnPTpA99ory/view?usp=sharing"
+
+  - year: 2025
+    title: "Statistical Depth and Robust Multivariate Inference"
+    description: >
+      Group project studying statistical depth, robust multivariate inference, depth-based hypothesis testing, regression depth, and change-point detection via rank-based segmentation methods.
+    link: "https://drive.google.com/file/d/1kPfKH1_BGy8I7U9cZcwiYGQmJYFYiL_0/view?usp=sharing"
+
+  - year: 2025
+    title: "Model Diagnostics for Binary-Response GLMs: An NBA Case Study"
+    description: >
+      Investigated model selection and diagnostic techniques for binary-response generalized linear models, including residual, leverage, and influence diagnostics using NBA game outcomes.
+    link: "https://drive.google.com/file/d/1gNXKRnLaXmIIWADqOFpRHNX4VqXfEEZ1/view?usp=sharing"
+
+
+
+
+
+
+talks:
+
+  - year: 2025
+    title: "Tracking the Hidden States : Bayesian Filtering & Smoothing"
+    venue: "D. Basu Memorial Gold Medal Award Seminar, Indian Statistical Institute Kolkata"
+    description: >
+      Invited to present this seminar as one of the top-ranked students in the B.Stat.
+      graduating cohort. The talk introduced Bayesian filtering and smoothing for stochastic dynamical systems,
+      discussing state-space models, stochastic differential equations, and modern
+      approximate inference techniques for recovering hidden states from noisy observations.
+
+    abstract: "https://drive.google.com/file/d/1J2RLSg_eEQW5te2Y8k0SnOer1UeIgOPG/view?usp=sharing"
+    slides: "https://drive.google.com/file/d/19lzIUasdzWRQUkE6hUn-d4_tuApWcY__/view?usp=sharing"

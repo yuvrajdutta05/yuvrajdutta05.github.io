@@ -1,0 +1,186 @@
+<div class="card border-0 shadow-sm bg-white">
+
+    <div class="card-body p-0">
+
+        <h4 class="p-3 mb-2 border-bottom border-gray">
+            Research
+        </h4>
+
+        <div class="px-4 py-3">
+
+            <!-- Ongoing Research -->
+
+            <h5 class="mb-2 pb-2 border-bottom">
+                Ongoing Research
+            </h5>
+
+            {% for item in site.data.research.ongoing %}
+
+            <div class="row py-3 {% unless forloop.last %}border-bottom border-gray{% endunless %}">
+
+                <div class="col-md-1 text-muted">
+                    {{ item.year }}
+                </div>
+
+                <div class="col-md-11">
+
+                    <div style="font-size:1.05rem;font-weight:600;">
+                        {{ item.title }}
+                    </div>
+
+                    <div class="text-muted">
+                        <em>Supervisor: {{ item.supervisor }}</em>
+                    </div>
+
+                    <div class="mt-2">
+                        {{ item.description }}
+                    </div>
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+            <!-- Completed Research -->
+
+            <h5 class="mt-5 mb-2 pb-2 border-bottom">
+                Completed Research
+            </h5>
+
+            {% for item in site.data.research.completed %}
+
+            <div class="row py-3 {% unless forloop.last %}border-bottom border-gray{% endunless %}">
+
+                <div class="col-md-1 text-muted">
+                    {{ item.year }}
+                </div>
+
+                <div class="col-md-11">
+
+                    <div style="font-size:1.05rem;font-weight:600;">
+
+                        {{ item.title }}
+
+                        {% if item.link %}
+                        <a href="{{ item.link }}"
+                           target="_blank"
+                           style="font-size:0.9rem;font-weight:normal;margin-left:6px;">
+                            {{ item.link_text }}
+                        </a>
+                        {% endif %}
+
+                    </div>
+
+                    <div class="text-muted">
+                        {{ item.authors }}
+                    </div>
+
+                    <div class="mt-2">
+                        {{ item.description }}
+                    </div>
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+            <!-- Talks -->
+
+            <h5 class="mt-5 mb-2 pb-2 border-bottom">
+                Talks & Presentations
+            </h5>
+
+            {% for item in site.data.research.talks %}
+
+            <div class="row py-3 {% unless forloop.last %}border-bottom border-gray{% endunless %}">
+
+                <div class="col-md-1 text-muted">
+                    {{ item.year }}
+                </div>
+
+                <div class="col-md-11">
+
+                    <div style="font-size:1.05rem;font-weight:600;">
+                        {{ item.title }}
+                    </div>
+
+                    <div class="text-muted">
+                        {{ item.venue }}
+                    </div>
+
+                    <div class="mt-2">
+                        {{ item.description }}
+                    </div>
+
+                    <div class="mt-2">
+
+                        {% if item.abstract %}
+                        <a href="{{ item.abstract }}"
+                           target="_blank">
+                            [Abstract]
+                        </a>
+                        {% endif %}
+
+                        {% if item.slides %}
+                        <a href="{{ item.slides }}"
+                           target="_blank"
+                           style="margin-left:8px;">
+                            [Slides]
+                        </a>
+                        {% endif %}
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+            <!-- Coursework -->
+
+            <h5 class="mt-5 mb-2 pb-2 border-bottom">
+                Selected Coursework Projects
+            </h5>
+
+            {% for item in site.data.research.coursework %}
+
+            <div class="row py-3 {% unless forloop.last %}border-bottom border-gray{% endunless %}">
+
+                <div class="col-md-1 text-muted">
+                    {{ item.year }}
+                </div>
+
+                <div class="col-md-11">
+
+                    <div style="font-size:1.05rem;font-weight:600;">
+
+                        {{ item.title }}
+
+                        {% if item.link %}
+                        <a href="{{ item.link }}"
+                           target="_blank"
+                           style="font-size:0.9rem;font-weight:normal;margin-left:6px;">
+                            [Report]
+                        </a>
+                        {% endif %}
+
+                    </div>
+
+                    <div class="mt-2">
+                        {{ item.description }}
+                    </div>
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+</div>

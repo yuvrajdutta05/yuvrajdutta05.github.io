@@ -1,0 +1,45 @@
+{% assign awards_by_year = site.data.profile.awards | group_by: "year" %}
+
+<div class="row mt-3">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+
+            <div class="card-body p-0">
+
+                <h4 class="p-3 mb-0 border-bottom border-gray">
+                    Awards & Achievements
+                </h4>
+
+                <div class="px-4 py-3">
+
+                    {% assign sorted_years = awards_by_year | sort: "name" | reverse %}
+
+                    {% for year in sorted_years %}
+
+                    <div class="media py-2 {% if forloop.first == false %}border-top border-gray{% endif %}">
+
+                        <div class="mr-4 text-muted" style="min-width:60px;">
+                            {{ year.name }}
+                        </div>
+
+                        <div class="media-body">
+
+                            {% for item in year.items %}
+                            <div class="mb-2">
+                                {{ item["title"] }}
+                            </div>
+                            {% endfor %}
+
+                        </div>
+
+                    </div>
+
+                    {% endfor %}
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

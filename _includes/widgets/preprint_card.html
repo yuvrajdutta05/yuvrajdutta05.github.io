@@ -1,0 +1,46 @@
+<div class="row mt-3">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+
+            <div class="card-body p-0">
+
+                <h4 class="p-3 mb-0 border-bottom border-gray">
+                    Manuscripts
+                </h4>
+
+                <div class="px-4 py-3">
+
+                    {% for item in site.data.profile.manuscripts %}
+
+                    <div class="{% unless forloop.last %}mb-4{% endunless %}">
+
+                        <div style="font-size:1.05rem; font-weight:600;">
+                            {{ item.title }}
+
+                            {% if item.arxiv %}
+                                <a href="{{ item.arxiv }}" target="_blank"
+                                   style="font-size:0.9rem; margin-left:8px;">
+                                    [arXiv]
+                                </a>
+                            {% endif %}
+                        </div>
+
+                        <div class="text-muted small">
+                            {{ item.authors }}
+                        </div>
+
+                        <div class="mt-1">
+                            <em>{{ item.status }}</em>
+                        </div>
+
+                    </div>
+
+                    {% endfor %}
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
