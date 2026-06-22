@@ -5,18 +5,17 @@ ongoing:
     title: "(Master's Dissertation) Asymptotic Fluctuations in Cubic Interaction Spin Models"
     supervisor: "Prof. Sumit Mukherjee (Columbia University)"
     description: >
-      Derived concentration inequalities for linear functionals in cubic interaction spin models,
-      including edge-triangle ERGMs using exchangeable-pair methods and Glauber dynamics.
-      Currently investigating central limit theorems for global magnetization under broad
-      structural assumptions on the interaction tensor.
+      Derived concentration inequalities for linear and quadratic functionals in a cubic interaction 
+      spin model (which includes the edge-triangle ERGM). Currently investigating CLT for the global 
+      magnetization under broad structural assumptions on the interaction tensor in the high temperature regime.
 
   - year: 2026
     title: "Conditional Limit Theorem for Brownian Motion with Drift under Restricted L²-Norm"
     supervisor: "Prof. Frank Aurzada (TU Darmstadt)"
     description: >
       Studying Brownian motion with drift conditioned to have atypically small L² norm over 
-      long time horizons and investigating associated conditional limit theorem along with
-       the asymptotics of small deviation probabilities of corresponding quadratic functionals.
+      long time horizons and investigating associated conditional limit theorem along with 
+      the asymptotics of small deviation probabilities of corresponding quadratic functionals.
 
 
 completed:
