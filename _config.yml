@@ -16,9 +16,9 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Build settings
-markdown: kramdown
-plugins:
-  - jekyll-email-protect
+
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -33,6 +33,22 @@ plugins:
 #   - vendor/ruby/
 
 # timezone: Asia/Shanghai
+
+
+# Site settings
+title: Yuvraj Dutta
+description: Academic homepage of Yuvraj Dutta
+url: "https://yuvrajdutta05.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-email-protect
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
 collections:
   - publications
