@@ -13,7 +13,7 @@ completed:
 
   - year: 2026
     title: "Brownian Motion with Drift conditioned to have Restricted L²-Norm"
-    supervisor: "Prof. Frank Aurzada (TU Darmstadt)"
+    authors: "Frank Aurzada, Yuvraj Dutta, Max Wiegand"
     description: >
       Studied Brownian motion with drift conditioned on an atypically small $L^2$-norm, proving convergence of the conditioned process to an Ornstein-Uhlenbeck process independent of the original drift. Derived asymptotics for the small ball probability of the quadratic additive functional via the Bromwich integral and saddle-point techniques. Identified the limiting conditioned process using Girsanov's theorem.
     link: "https://arxiv.org/abs/2610.12354"
