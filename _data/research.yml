@@ -2,29 +2,25 @@ ongoing:
 
   - year: 2026 
   
-    title: "(Master's Dissertation) Asymptotic Fluctuations in Cubic Interaction Spin Models"
+    title: "(Master's Dissertation) Fluctuations in p-spin Ising Models"
     supervisor: "Prof. Sumit Mukherjee (Columbia University)"
     description: >
-      Derived concentration inequalities for linear and quadratic functionals in a cubic interaction 
-      spin model (which includes the edge-triangle ERGM). Currently investigating CLT for the global 
-      magnetization under broad structural assumptions on the interaction tensor in the high temperature regime.
+      Derived sharp Berry-Esseen bounds for the global magnetization in the high-temperature regime under broad structural assumptions on the interaction tensor.
 
   - year: 2026
-    title: "Conditional Limit Theorem for Brownian Motion with Drift under Restricted L²-Norm"
+    title: "Brownian Motion with Drift conditioned to have Restricted L²-Norm"
     supervisor: "Prof. Frank Aurzada (TU Darmstadt)"
     description: >
-      Studying Brownian motion with drift conditioned to have atypically small L² norm over 
-      long time horizons and investigating associated conditional limit theorem along with 
-      the asymptotics of small deviation probabilities of corresponding quadratic functionals.
+      Studied Brownian motion with drift conditioned on an atypically small $L^2$-norm, proving convergence of the conditioned process to an Ornstein-Uhlenbeck process independent of the original drift. Derived asymptotics for the small ball probability of the quadratic additive functional via the Bromwich integral and saddle-point techniques. Identified the limiting conditioned process using Girsanov's theorem.
 
 
 completed:
 
   - year: 2025
-    title: "Projection-Based Filtering and Smoothing of Diffusion Processes"
+    title: "Entropic Matching for Filtering and Smoothing of Stochastic Differential Equations"
     authors: "Yannick Eich, Yuvraj Dutta, Heinz Koeppl"
     description: >
-      Developed a variational framework for approximate Bayesian filtering and smoothing of diffusion processes based on projection principles. The approach extends classical assumed-density methods beyond standard Gaussian approximations, allowing tractable inference under more general distributional constraints while preserving closed-form parameter dynamics for broad classes of stochastic systems.
+      Developed a variational inference framework for assumed-density filtering and smoothing of SDEs. Extended classical assumed-density methods beyond standard Gaussian approximations, allowing tractable inference under more general distributional constraints while preserving closed-form parameter dynamics for broad classes of stochastic systems.
  
   - year: 2024
     title: "Bivariate Inverse Gaussian Degradation Processes with Shared Random Effects and an Application to Fatigue Cracks"
@@ -49,32 +45,23 @@ coursework:
   - year: 2026
     title: "Resampling-Based Inference for Log-Linear Models"
     description: >
-      Investigated bootstrap and jackknife variance estimation for Poisson log-linear models, identifying limitations in the treatment of complex survey weights while assessing the robustness of inference under the original modeling assumptions.
     link: "https://drive.google.com/file/d/10uvPkNMXC3gz1BH5-b06v3V1Fsi9iF2i/view?usp=sharing"
 
   - year: 2026
     title: "Studying Gameplay Factors via a Confounded Factorial Experiment"
     description: >
-      Designed and executed a partially confounded blocked 2^4 factorial experiment, including factor selection, randomization, data collection, and statistical analysis. Evaluated the impact of gameplay conditions on performance through factorial-effect estimation and ANOVA.
     link: "https://drive.google.com/file/d/1gaeQJXO6OCbkpaGI4iTqdZ_gEQEzl5fg/view?usp=sharing"
 
   - year: 2026
     title: "Bootstrap-Based Model Selection in Binary GLMs"
     description: >
-      Extended the bootstrap model selection framework in Jun Shao's  "The Jackknife and Bootstrap" from linear regression to binary-response generalized linear models, yielding a bootstrap-based procedure for predictive risk estimation and model comparison.
     link: "https://drive.google.com/file/d/1yJYEMWVcTAMXR5XjLBwO5EnPTpA99ory/view?usp=sharing"
 
   - year: 2025
     title: "Statistical Depth and Robust Multivariate Inference"
     description: >
-      Group project studying statistical depth, robust multivariate inference, depth-based hypothesis testing, regression depth, and change-point detection via rank-based segmentation methods.
     link: "https://drive.google.com/file/d/1kPfKH1_BGy8I7U9cZcwiYGQmJYFYiL_0/view?usp=sharing"
 
-  - year: 2025
-    title: "Model Diagnostics for Binary-Response GLMs: An NBA Case Study"
-    description: >
-      Investigated model selection and diagnostic techniques for binary-response generalized linear models, including residual, leverage, and influence diagnostics using NBA game outcomes.
-    link: "https://drive.google.com/file/d/1gNXKRnLaXmIIWADqOFpRHNX4VqXfEEZ1/view?usp=sharing"
 
 
 

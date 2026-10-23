@@ -28,18 +28,18 @@ short_bio: >-
   <a href="https://www.isical.ac.in/" target="_blank">Indian Statistical Institute, Kolkata</a>,
   specializing in Probability. My master's dissertation, supervised by
   <a href="https://sites.stat.columbia.edu/sumitm/" target="_blank">Prof. Sumit Mukherjee</a>
-  (Columbia University), focuses on asymptotic fluctuations in cubic interaction spin models.
-  I am also working with
+  (Columbia University), focuses on fluctuations in p-spin Ising models.
+  I recently worked with
   <a href="https://www2.mathematik.tu-darmstadt.de/~aurzada/" target="_blank">Prof. Frank Aurzada</a>
   (TU Darmstadt)
   on conditional limit theorems for Brownian motion with drift under pathwise norm constraints.
   </p>
 
   <p>
-  I am fortunate to have received the opportunity to undertake a research internship with the
+  I was fortunate to have received the opportunity to undertake a research internship with the
   <a href="https://www.mathematik.tu-darmstadt.de/stochastik/startseite_agsto/index.de.jsp" target="_blank">Probability Group</a>
   in the Department of Mathematics at TU Darmstadt
-  (on-site, Summer 2026), under the supervision of Dr. Frank Aurzada.
+  (on-site, Summer 2026), under the supervision of Prof. Frank Aurzada.
   Previously, I visited the
   <a href="https://www.bcs.tu-darmstadt.de/welcome/index.en.jsp" target="_blank">Self-Organizing Systems Lab</a>
   at TU Darmstadt (on-site, Summer 2025), where I worked on approximate Bayesian filtering and smoothing for stochastic differential equations.
@@ -51,7 +51,7 @@ short_bio: >-
 portrait_url: /assets/images/photos/image.png
 
 
-research_interests: My research interests span a broad spectrum within probability and theoretical statistics. My current research involves stochastic processes, Bayesian statistical inference for diffusion and latent-variable models, graphical models, and interacting systems arising in statistical physics. More generally, I am interested in mathematically rigorous approaches to statistical inference and uncertainty quantification.
+research_interests: My research interest lies in developing mathematical frameworks motivated by applied sciences, with particular interest in statistical physics, stochastic processes and high-dimensional statistics.
  
 
 
@@ -61,7 +61,7 @@ education:
   logo: /assets/images/badges/ISI_logo.png
   position: >-
     <strong>Master of Statistics</strong> <br/>
-    Current Percentage: 92% 
+    Current Percentage: 92.2% 
   date: Jul. 2025 - Present
 - name: Indian Statistical Institute, Kolkata
   logo: /assets/images/badges/ISI_logo.png
@@ -102,14 +102,19 @@ awards:
 
 manuscripts:
 
+  - title: "Fluctuations in p-spin Ising Models"
+    authors: "Yuvraj Dutta, Sumit Mukherjee"
+    status: "In Preparation"
+    arxiv: 
+
   - title: "Brownian Motion with Drift Conditioned to Have Restricted L<sup>2</sup>-Norm"
     authors: "Frank Aurzada, Yuvraj Dutta, Max Wiegand"
-    status: "In preparation"
-    link:
+    status: "Submitted to the comapnion Applied Probability Journals (JAP and AAP)"
+    arxiv: "https://arxiv.org/abs/2610.12354"
 
-  - title: "Projection-Based Filtering and Smoothing of Diffusion Processes"
+  - title: "Entropic Matching for Filtering and Smoothing of Stochastic Differential Equations"
     authors: "Yannick Eich, Yuvraj Dutta, Heinz Koeppl"
-    status: "Submitted to a conference"
+    status: "Submitted to a conference, manuscript available on request"
     link:
 
   - title: "Bivariate Inverse Gaussian Degradation Processes with Shared Random Effects and an Application to Fatigue Cracks"
