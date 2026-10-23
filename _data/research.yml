@@ -7,14 +7,28 @@ ongoing:
     description: >
       Derived sharp Berry-Esseen bounds for the global magnetization in the high-temperature regime under broad structural assumptions on the interaction tensor.
 
+
+
+completed:
+
   - year: 2026
     title: "Brownian Motion with Drift conditioned to have Restricted L²-Norm"
     supervisor: "Prof. Frank Aurzada (TU Darmstadt)"
     description: >
       Studied Brownian motion with drift conditioned on an atypically small $L^2$-norm, proving convergence of the conditioned process to an Ornstein-Uhlenbeck process independent of the original drift. Derived asymptotics for the small ball probability of the quadratic additive functional via the Bromwich integral and saddle-point techniques. Identified the limiting conditioned process using Girsanov's theorem.
+    link: "https://arxiv.org/abs/2610.12354"
+    link_text: "[arXiv]"
 
 
-completed:
+  - year: 2025
+    title: "Limiting Free Entropy Density of the Mean-Field Ashkin-Teller Model"
+    authors: "Yuvraj Dutta"
+    description: >
+      Derived the limiting free entropy density using the method of types and entropy bounds, following the classical Curie-Weiss approach,
+      and expressed the limit as a finite dimensional optimisation problem
+    link: "https://drive.google.com/file/d/1XXhocDn-3RxrUjvrCa3zRAWSS9n3PHfJ/view?usp=sharing"
+    link_text: "[Report]"
+
 
   - year: 2025
     title: "Entropic Matching for Filtering and Smoothing of Stochastic Differential Equations"
